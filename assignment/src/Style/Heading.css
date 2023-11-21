@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+.container-2{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.Name-1 {
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: -15px;
+}
+.Name-1 ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.Name-1 ul li .wifi {
+    width: 30px;
+    height: 30px;
+    background-color: #48de48;
+    border-radius: 50%;
+    color: #fff;
+}
+.Name-1 ul li .click{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #fff;
+   
+}
+@media only screen and  (max-width:580px) {
+    .container-2{
+        max-width: 70%;
+        float: right;
+        margin-right: 20px;
+    }
+    .Name-1{
+        font-size: 13px;
+        margin-top: -70px;
+    }
+}

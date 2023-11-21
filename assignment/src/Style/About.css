@@ -1,0 +1,43 @@
+.container-3{
+    justify-content: center;
+    text-align: center;
+
+}
+.container-3 ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 3px;
+}
+h1{
+    font-size: 20px;
+}
+p{
+    text-decoration:underline;
+    color: rgb(38, 0, 255);
+}
+.container-3 ul li .icon{
+    width:18px;
+    height: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.star{
+  
+    background-color: rgb(32, 168, 218);
+}
+.like{
+   background-color: gold;
+}
+.eye{
+    background-color: grey;
+}
+.heart{
+    color: palevioletred;
+}
+.post{
+    background-color: transparent;
+    border-bottom: 0;
+    cursor: pointer;
+}

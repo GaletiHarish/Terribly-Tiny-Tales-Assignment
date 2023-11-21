@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.nav {
+    background-color: black;
+    color: azure;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    width: 100%;
+    height: 9vb;
+}
+
+.nav a {
+    font-size: 19px;
+    color: inherit;
+    text-decoration: none;   
+    margin-left: 40px;
+    letter-spacing: 15px;
+    font-weight: 500;
+}
+button{
+    font-size: 20px;
+    background-color: #ff9900;
+    padding: 9px;
+    letter-spacing: 1px;
+    border-radius: 15%;
+    font-weight: 500;
+    margin-right: 4%;
+}
